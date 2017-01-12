@@ -1,0 +1,20 @@
+
+public class BMW extends Car {
+	private boolean autotransmission;
+	
+	
+	
+	@Override
+	public void changeGears() {
+		// TODO Auto-generated method stub
+		super.changeGears();
+	}
+	@Override
+	public void decreaseSpeed(int speed) {
+		// TODO Auto-generated method stub
+		super.decreaseSpeed(speed);
+	}
+	
+	
+	
+}

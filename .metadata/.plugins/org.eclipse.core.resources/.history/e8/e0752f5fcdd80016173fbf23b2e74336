@@ -1,0 +1,32 @@
+
+public class BMW extends Car {
+	private boolean autotransmission;
+	
+	public BMW(String vehicleType, int noOfGears, int speed, String color,
+			String brand, String yearOfManufacturing, String vehicleType2,
+			int noOfGears2, int speed2, String color2, String brand2,
+			String yearOfManufacturing2) {
+		super(vehicleType, noOfGears, speed, color, brand, yearOfManufacturing);
+		vehicleType = vehicleType2;
+		noOfGears = noOfGears2;
+		speed = speed2;
+		color = color2;
+		brand = brand2;
+		yearOfManufacturing = yearOfManufacturing2;
+	}
+	
+	
+	@Override
+	public void changeGears() {
+		// TODO Auto-generated method stub
+		super.changeGears();
+	}
+	@Override
+	public void decreaseSpeed(int speed) {
+		// TODO Auto-generated method stub
+		super.decreaseSpeed(speed);
+	}
+	
+	
+	
+}

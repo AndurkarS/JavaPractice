@@ -1,0 +1,7 @@
+
+public class BMW extends Car {
+	private String vehicleType;
+	private int noOfGears;
+	private int speed;
+	private String color;
+}
