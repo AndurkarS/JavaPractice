@@ -2,7 +2,6 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		BankAccount acct1 = new BankAccount();
 		acct1.setAccountNumber("123456");
 		acct1.setBalance(10000.00);
